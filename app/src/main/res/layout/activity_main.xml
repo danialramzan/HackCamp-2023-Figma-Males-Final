@@ -86,12 +86,12 @@
 
     <TextView
         android:id="@+id/welcomeMessage"
-        android:layout_width="325dp"
-        android:layout_height="98dp"
+        android:layout_width="326dp"
+        android:layout_height="74dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Hello, John!"
-        android:textSize="60sp"
+        android:textSize="50sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -100,7 +100,7 @@
         android:layout_width="187dp"
         android:layout_height="51dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:text="New Log"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +111,6 @@
         android:layout_width="313dp"
         android:layout_height="37dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:text="How are you feeling?"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,7 +120,7 @@
         android:id="@+id/seekBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:max="5"
         android:progress="1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -144,7 +143,7 @@
         android:layout_width="238dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Description"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -188,9 +187,10 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="409dp"
-        android:layout_height="354dp"
+        android:layout_width="346dp"
+        android:layout_height="335dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
