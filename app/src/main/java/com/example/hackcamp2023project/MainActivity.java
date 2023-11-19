@@ -3,6 +3,7 @@ package com.example.hackcamp2023project;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     private ListView listView;
     private Button button;
 
+    private Button navigationButton;
+
     private SeekBar seekBar;
 
     private TextInputEditText text;
@@ -36,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.listView);
         button = findViewById(R.id.button16);
+        navigationButton = findViewById(R.id.navigationButton);
         seekBar = findViewById(R.id.seekBar);
         text = findViewById(R.id.textInputEditText);
 
@@ -43,6 +47,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 addItem(v);
+            }
+        });
+
+        navigationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Map.class);
+                startActivity(intent);
             }
         });
 
