@@ -5,9 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#7cdda8"
-    tools:ignore="ExtraText">
-    <![CDATA[
-    tools:context=".Splash">]]>
+    tools:ignore="ExtraText"><![CDATA[
+
+    tools:context=".Splash">
+
+
+
+
+
+
+
+
+
+    ]]>
 
     <TextView
         android:id="@+id/textView"
@@ -18,12 +28,13 @@
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="bold"
+        android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintVertical_bias="0.606" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -31,12 +42,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:visibility="visible"
+        android:progressTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751" />
+        app:layout_constraintVertical_bias="0.678" />
 
     <TextView
         android:id="@+id/textView2"
@@ -45,7 +57,7 @@
         android:gravity="center"
         android:textColor="@color/black"
         android:text="Team Figma Males"
-        android:textStyle="italic"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,14 +66,13 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="220dp"
-        android:layout_height="219dp"
+        android:layout_width="255dp"
+        android:layout_height="247dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468"
+        app:layout_constraintVertical_bias="0.454"
         app:srcCompat="@drawable/app_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

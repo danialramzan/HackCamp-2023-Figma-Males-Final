@@ -86,8 +86,8 @@
 
     <TextView
         android:id="@+id/welcomeMessage"
-        android:layout_width="325dp"
-        android:layout_height="98dp"
+        android:layout_width="329dp"
+        android:layout_height="71dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Hello, John!"
@@ -100,7 +100,7 @@
         android:layout_width="187dp"
         android:layout_height="51dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="New Log"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -188,8 +188,8 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="409dp"
-        android:layout_height="354dp"
+        android:layout_width="350dp"
+        android:layout_height="306dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
