@@ -4,14 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7cdda8"><![CDATA[
-    tools:context=".Splash">
-
-
-
-
-
-    ]]>
+    android:background="#7cdda8"
+    tools:ignore="ExtraText">
+    <![CDATA[
+    tools:context=".Splash">]]>
 
     <TextView
         android:id="@+id/textView"
