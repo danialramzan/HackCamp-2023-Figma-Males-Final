@@ -16,7 +16,9 @@ import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
     private ArrayList<String> logs;
@@ -87,16 +89,17 @@ public class MainActivity extends AppCompatActivity {
 //    }
 
     private void addItem(View v) {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
+
+        String date = dateFormat.format(new Date());
         String rating = Integer.toString(seekBar.getProgress());
         String desc = text.getText().toString();
-        String star = "☆";
-        String print = desc + " " + star.repeat(seekBar.getProgress());
+        String star = "★";
+        String print = "[" + date + "] " + desc + " \n" + star.repeat(seekBar.getProgress());
 
         if(!(desc.equals(""))) {
             logsAdapter.add(print);
             text.setText("");
-        } else {
-            ///
         }
     }
 }
