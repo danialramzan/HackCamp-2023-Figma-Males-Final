@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity {
     private void addItem(View v) {
         String rating = Integer.toString(seekBar.getProgress());
         String desc = text.getText().toString();
-        String print = rating + "    " + desc;
+        String star = "☆";
+        String print = desc + " " + star.repeat(seekBar.getProgress());
 
         if(!(desc.equals(""))) {
             logsAdapter.add(print);
