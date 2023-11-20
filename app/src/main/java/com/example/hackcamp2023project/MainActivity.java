@@ -73,21 +73,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    private void setUpListViewListener() {
-//        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-//            @Override
-//            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-//                Context context = getApplicationContext();
-//                Toast.makeText(context, "Item Removed", Toast.LENGTH_LONG).show();
-//
-//                logs.remove(position);
-//                logsAdapter.notifyDataSetChanged();
-//                return true;
-//            }
-//
-//        });
-//    }
-
     private void addItem(View v) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 
