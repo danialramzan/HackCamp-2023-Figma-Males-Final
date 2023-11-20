@@ -1,10 +1,6 @@
 # hackcamp-2023-figma-males
 HackCamp 2023 repo for team Figma Males
 
-## figma males RAHHHHHHHHHHHHHH
-
-![FIGMA MALES](https://github.com/NISH-Original/hackcamp-2023-figma-males/assets/75113251/744759e7-92ed-41f9-b675-a66ac84ad4ac)
-
 App idea:
 - An app that people can use to keep a log of their daily progress, emotions, and challenges (if any) related to their drug rehabilitation.
 - They can connect to mentors, and people who have previously overcome the same problems and can talk about their current state of progress and get more tips.
